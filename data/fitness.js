@@ -4,6 +4,7 @@ export default [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEM-6gDUO7g1cdrNhBaqk_0nwxy6ILlIqsQ&usqp=CAU",
     name: "FULL BODY",
+    for: "Beginner",
     description: "7x4 CHALLENGE",
     excersises: [
       {
@@ -15,7 +16,7 @@ export default [
       },
       {
           id:"11",
-          image:"https://177d01fbswx3jjl1t20gdr8j-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/Incline-Push-Up.gif",
+          image:"https://static.wixstatic.com/media/7df78f_d49115d8f108408d99ac185043e521ce~mv2.gif",
           name:"INCLINE PUSH-UPS",
           sets:10,
       },
@@ -50,6 +51,7 @@ export default [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonpSjpGQ2-JD8-XFFD7LYsVSFCOiASj0wSOq1qxNvxGFHe7W6AU1LRAeJ2fOIzYICMGc&usqp=CAU",
     name: "ABS BEGINNER",
+    for: "Beginner",
     description: "7x4 CHALLENGE",
     excersises : [
       {
@@ -89,6 +91,7 @@ export default [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1NHvoutGn-Vr_uwVbOOtezhENvx9jhV6pfQ&usqp=CAU",
     name: "ARM BEGINNER",
+    for: "Beginner",
     description: "7x4 CHALLENGE",
     excersises:[
       {
@@ -139,8 +142,9 @@ export default [
   {
     id: "3",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqCT0tewpNAZ6R9JUoMDHIHGnpE44U2Fl1Zw&usqp=CAU",
+      "https://images2.alphacoders.com/106/1069371.jpg",
     name: "CHEST BEGINNER",
+    for: "Beginner",
     description: "7x4 CHALLENGE",
     excersises: [
       {
@@ -178,6 +182,59 @@ export default [
         image:"https://media3.popsugar-assets.com/files/thumbor/0Xiqpo7pxrKz5CKcRl7XYrKegko/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/02/27/847/n/1922729/1baf9ec0f5ce4ea9_burpee.3.gif",
         name:"BURPEES",
         sets:10
+      }
+    ]
+  },
+  {
+    id: "4",
+    image:
+      "https://images7.alphacoders.com/130/1308025.jpg",
+    name: "ARM V2",
+    for: "Intermediate",
+    description: "7x4 CHALLENGE",
+    excersises:[
+      {
+        id:"70",
+        image:"https://post.healthline.com/wp-content/uploads/2020/06/400x400_How_to_do_Zac_Efrons_Baywatch_Workout_Dumbbell_Lateral_Raise.gif",
+        name:"ARM RAISES",
+        sets:8,
+      },
+      {
+        id:"71",
+        image:"https://thumbs.gfycat.com/CompleteZigzagFossa-max-1mb.gif",
+        name:"TRICEP DIPS",
+        sets:10,
+      },
+      {
+        id:"72",
+        image:"https://thumbs.gfycat.com/MisguidedAridAlaskanmalamute-max-1mb.gif",
+        name:"DIAMOND_PUSHUP",
+        sets:10,
+      },
+      {
+        id:"73",
+        image:"https://c.tenor.com/gI-8qCUEko8AAAAC/pushup.gif",
+        name:"PUSH-UPS",
+        sets:10,
+      },
+      {
+        id:"74",
+        image:"https://i.pinimg.com/originals/8c/53/27/8c532774e4e1c524576bf1fb829ad895.gif",
+        name:"DUMBELL CURL",
+        sets:11,
+      
+      },
+      {
+        id:"75",
+        image:"https://www.vissco.com/wp-content/uploads/animation/sub/inch-worm.gif",
+        name:"INCH WORMS",
+        sets:5,
+      },
+      {
+        id:"76",
+        image:"https://c.tenor.com/jqwaOmRs-7gAAAAC/tricep-kick-back-tricep.gif",
+        name:"TRICEP LIFT",
+        sets:8,
       }
     ]
   },
