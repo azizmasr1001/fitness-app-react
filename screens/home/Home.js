@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, ScrollView } from 'react-native';
+import Header from '../stuff/Header';
 
 function Home(props) {
   return (

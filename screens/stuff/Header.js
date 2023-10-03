@@ -7,11 +7,11 @@ import HeaderTittle from './HeaderTittle';
 const headerImage = require("../../assets/images/header.jpg");
 const notification = require('../../assets/images/Notification.png');
 
-function Header(props) {
+function Header() {
     return (
         <View style={styles.header}>
             <ImageContainer image={headerImage} />
-            <HeaderTittle />
+                <HeaderTittle />
             <ImageContainer image={notification} height={'50%'} width={'50%'} />
         </View>
     );

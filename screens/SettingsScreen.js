@@ -1,9 +1,23 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { SafeAreaView, Text, View, ScrollView } from 'react-native';
 
-function SettingsScreen(props) {
+import Header from './stuff/Header';
+import Banner from './stuff/Banner';
+const SettingsScreen = () => {
     return (
-        <Text>Setting</Text>
+        <SafeAreaView>
+            <View>
+
+                <View>
+                    <Banner />
+                </View>
+
+                <ScrollView>
+                <Text>Setting</Text>
+                </ScrollView>
+            </View>
+        </SafeAreaView>
+        
     );
 }
 
